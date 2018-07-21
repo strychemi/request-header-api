@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Request Header Parser API</title>
+    <meta name="Request Header Parser API" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!--   Bootstrap v4   -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <div class="container">
+      
+      <h1>Request Header Parser API</h1>
+      
+      <p>A simple API that implements the following user story:</p>
+      
+      <ul>
+        <li>I can get the IP address, language and operating system for my browser.</li>
+      </ul>
+      
+      <h3>Example Usage:</h3>
+      
+      <pre>GET /api/whoami</pre>
+
+      <code>https://strychemi-request-header-api.glitch.me/api/whoami</code>
+      
+      <p class="mt-3">Results in the following JSON response:</p>
+      <pre>
+      {
+        "ipAddress": "108.28.102.99,::ffff:10.10.11.164,::ffff:10.10.10.252",
+        "language": "en-US",
+        "browserOS": "(Macintosh; Intel Mac OS X 10_13_3)"
+      }
+      </pre>
+    </div>
+  </body>
+</html>
